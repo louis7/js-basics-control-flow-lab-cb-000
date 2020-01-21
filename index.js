@@ -3,6 +3,7 @@ function scuberGreetingForFeet(distance){
   if (distance <= 400){
         message = "This one is on me!";
    }
+<<<<<<< HEAD
    else if (distance >= 2000 && distance <=2500){
         message = "I will gladly take your thirty bucks.";
 
@@ -10,6 +11,12 @@ function scuberGreetingForFeet(distance){
    else {
      message = "No can do.";
    }
+=======
+   elseif (distance >= 2000) && (distance <=2500) {
+        message = "I will gladly take your thirty bucks."
+
+   }
+>>>>>>> 23409017f0a506899d2f5edf02c023c6c69d2f6d
 
 
 return message
@@ -22,6 +29,7 @@ function ternaryCheckCity(city){
   return message
 }
 
+<<<<<<< HEAD
 function switchOnCharmFromTip(tip){
 let message;
   switch (tip) {
@@ -39,4 +47,8 @@ let message;
 
   return message
 
+=======
+function switchOnCharmFromTip(){
+  // Write your code here!
+>>>>>>> 23409017f0a506899d2f5edf02c023c6c69d2f6d
 }
